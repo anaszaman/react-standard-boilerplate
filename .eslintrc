@@ -1,0 +1,26 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "standard",
+    "standard-react"
+  ],
+  "env"     : {
+    "browser" : true
+  },
+  "globals" : {
+    "$"       : false,
+    "it"       : false
+  },
+  {
+    "plugins": [
+      "babel"
+    ]
+  },
+  "rules": {
+    "generator-star-spacing" : 0,
+    "max-len": [2, 80, 2],
+    "semi" : [2, "never"],
+    "react/prop-types": [2, {}]
+  }
+}
+

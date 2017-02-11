@@ -1,0 +1,28 @@
+{
+  "name": "react-standard-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "7.1.1",
+    "eslint": "3.15.0",
+    "eslint-config-standard": "6.2.1",
+    "eslint-config-standard-react": "4.2.0",
+    "eslint-plugin-promise": "3.4.1",
+    "eslint-plugin-react": "6.9.0",
+    "eslint-plugin-standard": "2.0.1",
+    "eslint-watch": "2.1.14",
+    "react-scripts": "0.9.0"
+  },
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "lint": "eslint .",
+    "lint:dev": "esw --color -w .",
+    "lint:fix": "npm run lint -- --fix"
+  }
+}
